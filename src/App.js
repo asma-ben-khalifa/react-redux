@@ -19,8 +19,11 @@ function App() {
                   name={elt.item}
                   done={elt.done}
                   id={elt.id}/>
-              ))
+                  
+              )
+              )
             }
+           
        </div>
      <AddTask />
      </div>
